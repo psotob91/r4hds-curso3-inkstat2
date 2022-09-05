@@ -102,7 +102,7 @@ knitr::include_graphics("../files/img/descargar-html.gif")
 
 - Puede descargar los archivos generados en la carpeta `mi_primer_proyecto` en el siguiente enlace: [Aquí](../slides/sesion1/ejemplos/mi_primer_proyecto.zip).
 
-- Puede ver la versión Web de este ejercicio en el siguiente enlace se la sección Ejemplos: [Aquí]()
+- Puede ver la versión Web de este ejercicio en el siguiente enlace se la sección Ejemplos: [Aquí](../example/mi_primer_proyecto/mi_primer_quarto.html)
 
 :::
 
