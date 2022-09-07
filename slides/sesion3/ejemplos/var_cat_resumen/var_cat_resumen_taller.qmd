@@ -8,13 +8,11 @@ Vamos a resolver una serie de ejercicios acerca de descripción de variables cat
 
 ## Cargar paquetes
 
-
 ```{r}
 library(tidyverse)     # Esto carga {dplyr}, {ggplot2}, etc.
-library(haven)         # Para importar datos de Stata
+library(rio)           # Navaja suiza de la importacion de datos
 library(skimr)         # Exploración de datos
 library(summarytools)  # Para generar estadísticos descriptivos
-library(Hmisc)         # Para generar estadísticos descriptivos
 ```
 
 ## Importar datos
@@ -25,12 +23,25 @@ ebola_data <- import("linelist_cleaned.rds")
 
 ## Análisis inicial de datos
 
+- Vistazo:
+
 ```{r}
 ebola_data %>% 
   glimpse()
 ```
- 
+
+```{r}
+ebola_data %>% 
+  head()
+```
+
+```{r}
+ebola_data %>% 
+  skim()
+```
+
 ## R base para medidas de frecuencia
+
 
 
 ## dplyr para medidas de frecuencia

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>R para Ciencia de Datos en Salud 3 - Análisis descriptivo univariado de variables categóricas</title>
+<title>R para Ciencia de Datos en Salud 3 - Análisis descriptivo univariado de variables de tiempo</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -57,13 +57,13 @@ ul.task-list{list-style: none;}
 }</script>
 
 
-<meta property="og:title" content="R para Ciencia de Datos en Salud 3 - Análisis descriptivo univariado de variables categóricas">
+<meta property="og:title" content="R para Ciencia de Datos en Salud 3 - Análisis descriptivo univariado de variables de tiempo">
 <meta property="og:image" content="https://rcds3.inkastats.es//files/social-image-f22.png">
 <meta property="og:site-name" content="R para Ciencia de Datos en Salud 3">
 <meta property="og:locale" content="en_US">
 <meta property="og:image:height" content="446">
 <meta property="og:image:width" content="1168">
-<meta name="twitter:title" content="R para Ciencia de Datos en Salud 3 - Análisis descriptivo univariado de variables categóricas">
+<meta name="twitter:title" content="R para Ciencia de Datos en Salud 3 - Análisis descriptivo univariado de variables de tiempo">
 <meta name="twitter:image" content="https://rcds3.inkastats.es//files/social-image-f22.png">
 <meta name="twitter:creator" content="@psotob91">
 <meta name="twitter:card" content="summary_large_image">
@@ -120,7 +120,7 @@ ul.task-list{list-style: none;}
     </nav>
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Análisis descriptivo univariado de variables categóricas</h1>
+      <h1 class="quarto-secondary-nav-title">Análisis descriptivo univariado de variables de tiempo</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -247,7 +247,7 @@ ul.task-list{list-style: none;}
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header">
-<h1 class="title d-none d-lg-block display-7">Análisis descriptivo univariado de variables categóricas</h1>
+<h1 class="title d-none d-lg-block display-7">Análisis descriptivo univariado de variables de tiempo</h1>
 
 <div class="date-block bg-content text-white p-2">
   <p class="date">Contenido será publicado el jueves, 18 de agosto de 2022</p>
@@ -281,8 +281,15 @@ Objetivos
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Datos de tiempo de supervivencia</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Tabla univariada reproducible</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<p><strong>Parte 1</strong></p>
 <div style="padding:56.25% 0 0 0;position:relative;">
-<iframe src="https://player.vimeo.com/video/739682804?h=685cded25e&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="New Recording - 15/8/2022, 11:01:57">
+<iframe src="https://player.vimeo.com/video/747370929?h=cfbe941161&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Datos de tiempo de supervivencia, parte 1">
+</iframe>
+</div>
+<script src="https://player.vimeo.com/api/player.js"></script>
+<p><strong>Parte 2</strong></p>
+<div style="padding:56.25% 0 0 0;position:relative;">
+<iframe src="https://player.vimeo.com/video/747369426?h=d87bd9c05b&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Datos de tiempo de supervivencia, parte2">
 </iframe>
 </div>
 <script src="https://player.vimeo.com/api/player.js"></script>
@@ -297,15 +304,15 @@ Nuestro turno: Descripción de variables de tiempo
 </div>
 <div class="callout-body-container callout-body">
 <ul>
-<li><p>Puede descargar los archivos generados en la carpeta <code>var_tiempo</code> en el siguiente enlace: <a href="../slides/sesion2/ejemplos/var_tiempo.zip">Aquí</a>.</p></li>
-<li><p>Puede ver la versión Web de este ejercicio en el siguiente enlace de la sección Ejemplos: <a href="">Aquí</a></p></li>
+<li><p>Puede descargar los archivos generados en la carpeta <code>var_tiempo</code> en el siguiente enlace: <a href="../slides/sesion4/ejemplos/var_tiempo.zip">Aquí</a>.</p></li>
+<li><p>Puede ver la versión Web de este ejercicio en el siguiente enlace de la sección Ejemplos: <a href="../example/var_tiempo/var_tiempo_solucionario.html">Aquí</a></p></li>
 </ul>
 </div>
 </div>
 </div>
 <div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
 <div style="padding:56.25% 0 0 0;position:relative;">
-<iframe src="https://player.vimeo.com/video/739682804?h=685cded25e&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="New Recording - 15/8/2022, 11:01:57">
+<iframe src="https://player.vimeo.com/video/747400171?h=7cf680870e&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Tabla Univariada Reproducible con {gtsummary}">
 </iframe>
 </div>
 <script src="https://player.vimeo.com/api/player.js"></script>
@@ -320,8 +327,8 @@ Nuestro turno: Tabla univariada reproducible
 </div>
 <div class="callout-body-container callout-body">
 <ul>
-<li><p>Puede descargar los archivos generados en la carpeta <code>report_reprod_univ</code> en el siguiente enlace: <a href="../slides/sesion2/ejemplos/report_reprod_univ.zip">Aquí</a>.</p></li>
-<li><p>Puede ver la versión Web de este ejercicio en el siguiente enlace de la sección Ejemplos: <a href="">Aquí</a></p></li>
+<li><p>Puede descargar los archivos generados en la carpeta <code>report_reprod_univ</code> en el siguiente enlace: <a href="../slides/sesion4/ejemplos/report_reprod_univ.zip">Aquí</a>.</p></li>
+<li><p>Puede ver la versión Web de este ejercicio en el siguiente enlace de la sección Ejemplos: <a href="../example/report_reprod_univ/report_reprod_univ_solucionario.html">Aquí</a></p></li>
 </ul>
 </div>
 </div>

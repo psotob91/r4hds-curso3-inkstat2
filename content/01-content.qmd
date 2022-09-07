@@ -131,7 +131,7 @@ knitr::include_graphics("../slides/sesion1/img/abrir-proyecto.gif")
 
 - Puede descargar los archivos generados en la carpeta `importar_datos` en el siguiente enlace: [Aquí](../slides/sesion1/ejemplos/importar_datos.zip).
 
-- Puede ver la versión Web de este ejercicio en el siguiente enlace se la sección Ejemplos: [Aquí]()
+- Puede ver la versión Web de este ejercicio en el siguiente enlace se la sección Ejemplos: [Aquí](../example/importar_datos/importar_datos_ejemplos.qmd)
 
 :::
 
@@ -144,9 +144,16 @@ knitr::include_graphics("../slides/sesion1/img/abrir-proyecto.gif")
 
 ### Nuestro turno: Mi primer y segundo ggplot
 
-- Puede descargar los archivos generados en la carpeta `mi_primer_ggplot` en el siguiente enlace: [Aquí](../slides/sesion1/ejemplos/mi_primer_ggplot.zip).
+**Mi primer ggplot**
 
-- Puede ver la versión Web de este ejercicio en el siguiente enlace se la sección Ejemplos: [Aquí]()
+- Puede descargar los archivos generados en la carpeta `mi_primer_ggplot` en el siguiente enlace: [Aquí](../slides/sesion1/ejemplos/mi_primer_ggplot.zip). Esta contiene los archivos para `mi_primer_ggplot` y `mi_segundo_ggplot`.
+
+- Puede ver la versión Web de este ejercicio en el siguiente enlace se la sección Ejemplos:
+
+**Mi primer ggplot:** [Aquí](../example/mi_primer_ggplot/mi_primer_ggplot_solucion.qmd)
+
+
+**Mi segundo ggplot:** [Aquí](../example/mi_primer_ggplot/mi_segundo_ggplot_solucion.qmd)
 
 :::
 
@@ -160,7 +167,7 @@ knitr::include_graphics("../slides/sesion1/img/abrir-proyecto.gif")
 
 - Puede descargar los archivos generados en la carpeta `mi_primer_manejo_datos` en el siguiente enlace: [Aquí](../slides/sesion1/ejemplos/mi_primer_manejo_datos.zip).
 
-- Puede ver la versión Web de este ejercicio en el siguiente enlace se la sección Ejemplos: [Aquí]()
+- Puede ver la versión Web de este ejercicio en el siguiente enlace se la sección Ejemplos: [Aquí](../example/mi_primer_manejo_datos/mi_primer_manejo_datos_solucion.qmd)
 
 :::
 

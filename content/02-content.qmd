@@ -39,13 +39,39 @@ En esta segunda sesión revisaremos los siguiente:
 
 - Puede descargar los archivos generados en la carpeta `aid` en el siguiente enlace: [Aquí](../slides/sesion2/ejemplos/aid.zip).
 
-- Puede ver la versión Web de este ejercicio en el siguiente enlace de la sección Ejemplos: [Aquí]()
+- Puede ver la versión Web de este ejercicio en el siguiente enlace de la sección Ejemplos: [Aquí](../example/aid/aid_taller_solucionario.qmd)
 
 :::
 
 #### Parte 2
 
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/744008287?h=ad4ed99ba7&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="AID - parte 2"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+### Datos numéricos: Gráficos
+
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/744010981?h=f7493cc779&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Variables num&amp;eacute;ricas"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+::: {.callout-note}
+
+### Nuestro turno: Graficos de variables numéricas
+
+- Puede descargar los archivos generados en la carpeta `var_num_graficos` en el siguiente enlace: [Aquí](../slides/sesion2/ejemplos/var_num_graficos.zip).
+
+- Puede ver la versión Web de este ejercicio en el siguiente enlace de la sección Ejemplos: [Aquí](../example/var_num_graficos/var_num_graficos_solucionario.qmd)
+
+:::
+
+### Datos numéricos: Medidas de resumen
+
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/744694861?h=e41f96f669&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Datos Num&amp;eacute;ricos - Medidas de Resumen"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+::: {.callout-note}
+
+### Nuestro turno: Resumen de variables numéricas
+
+- Puede descargar los archivos generados en la carpeta `var_num_resumen` en el siguiente enlace: [Aquí](../slides/sesion2/ejemplos/var_num_resumen.zip).
+
+- Puede ver la versión Web de este ejercicio en el siguiente enlace de la sección Ejemplos: [Aquí](../example/var_num_resumen/var_num_resumen_taller_solucionario.qmd)
 
 :::
 
@@ -81,6 +107,30 @@ slide_buttons("/slides/sesion2/02-01-aid-aed")
 #| echo: false
 #| out.width: 100%
 knitr::include_url('../slides/sesion2/02-01-aid-aed.html')
+```
+
+### Datos numéricos: Gráficos
+
+```{r show-slide-tabs3, echo=FALSE, results="asis"}
+slide_buttons("/slides/sesion2/02-02-var-num")
+```
+
+```{r}
+#| echo: false
+#| out.width: 100%
+knitr::include_url('../slides/sesion2/02-02-var-num.html')
+```
+
+### Datos numéricos: Medidas de resumen
+
+```{r show-slide-tabs4, echo=FALSE, results="asis"}
+slide_buttons("/slides/sesion2/02-03-var-num2")
+```
+
+```{r}
+#| echo: false
+#| out.width: 100%
+knitr::include_url('../slides/sesion2/02-03-var-num2.html')
 ```
 
 :::
